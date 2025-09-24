@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline AI Agent Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Set Tailwind to use class-based dark mode and extend with Material Design 3 color palette
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              // Light Theme Colors
+              'light-primary': '#6750A4',
+              'light-on-primary': '#FFFFFF',
+              'light-primary-container': '#EADDFF',
+              'light-on-primary-container': '#21005D',
+              'light-secondary': '#625B71',
+              'light-on-secondary': '#FFFFFF',
+              'light-secondary-container': '#E8DEF8',
+              'light-on-secondary-container': '#1D192B',
+              'light-tertiary': '#7D5260',
+              'light-on-tertiary': '#FFFFFF',
+              'light-tertiary-container': '#FFD8E4',
+              'light-on-tertiary-container': '#31111D',
+              'light-error': '#B3261E',
+              'light-on-error': '#FFFFFF',
+              'light-error-container': '#F9DEDC',
+              'light-on-error-container': '#410E0B',
+              'light-background': '#FFFBFE',
+              'light-on-background': '#1C1B1F',
+              'light-surface': '#FFFBFE',
+              'light-on-surface': '#1C1B1F',
+              'light-surface-variant': '#E7E0EC',
+              'light-on-surface-variant': '#49454F',
+              'light-outline': '#79747E',
+              'light-outline-variant': '#CAC4D0',
+              'light-surface-container-lowest': '#FFFFFF',
+              'light-surface-container-low': '#F7F2FA',
+              'light-surface-container': '#F3EDF7',
+              'light-surface-container-high': '#ECE6F0',
+              'light-surface-container-highest': '#E6E0E9',
+
+              // Dark Theme Colors
+              'dark-primary': '#D0BCFF',
+              'dark-on-primary': '#381E72',
+              'dark-primary-container': '#4F378B',
+              'dark-on-primary-container': '#EADDFF',
+              'dark-secondary': '#CCC2DC',
+              'dark-on-secondary': '#332D41',
+              'dark-secondary-container': '#4A4458',
+              'dark-on-secondary-container': '#E8DEF8',
+              'dark-tertiary': '#EFB8C8',
+              'dark-on-tertiary': '#492532',
+              'dark-tertiary-container': '#633B48',
+              'dark-on-tertiary-container': '#FFD8E4',
+              'dark-error': '#F2B8B5',
+              'dark-on-error': '#601410',
+              'dark-error-container': '#8C1D18',
+              'dark-on-error-container': '#F9DEDC',
+              'dark-background': '#1C1B1F',
+              'dark-on-background': '#E6E1E5',
+              'dark-surface': '#141218',
+              'dark-on-surface': '#E6E1E5',
+              'dark-surface-variant': '#49454F',
+              'dark-on-surface-variant': '#CAC4D0',
+              'dark-outline': '#938F99',
+              'dark-outline-variant': '#49454F',
+              'dark-surface-container-lowest': '#0F0D13',
+              'dark-surface-container-low': '#1C1B1F',
+              'dark-surface-container': '#211F26',
+              'dark-surface-container-high': '#2B2931',
+              'dark-surface-container-highest': '#36343B',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  <script>
+    // FOUC Prevention: Immediately set theme from localStorage or system preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

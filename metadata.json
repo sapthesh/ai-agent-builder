@@ -1,0 +1,5 @@
+{
+  "name": "Offline AI Agent Builder",
+  "description": "A graphical user interface to build, configure, and export AI agent definitions for offline use. Define agent personas, select models, create custom tools, and export the complete configuration as a JSON file.",
+  "requestFramePermissions": []
+}
