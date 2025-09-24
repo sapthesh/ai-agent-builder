@@ -4,11 +4,26 @@
 <h3 align="center">Visually craft, configure, and export sophisticated AI agent definitions—no internet or API keys required.</h3>
 
 <div align="center">
+    
+  <!-- Dynamic Badges -->
+  <a href="https://github.com/sapthesh/ai-agent-builder/stargazers">
+    <img src="https://img.shields.io/github/stars/sapthesh/ai-agent-builder?style=for-the-badge&logo=github&color=b491ff&logoColor=white" alt="Stars">
+  </a>
+  <a href="https://github.com/sapthesh/ai-agent-builder/network/members">
+    <img src="https://img.shields.io/github/forks/sapthesh/ai-agent-builder?style=for-the-badge&logo=github&color=89c4f4&logoColor=white" alt="Forks">
+  </a>
+  <img src="https://img.shields.io/github/repo-size/sapthesh/ai-agent-builder?style=for-the-badge&logo=github&color=ff69b4&logoColor=white" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/sapthesh/ai-agent-builder?style=for-the-badge&logo=github&color=f4d03f&logoColor=white" alt="Last Commit">
+  <a href="https://hits.sh/github.com/sapthesh/ai-agent-builder/"><img alt="Hits" src="https://hits.sh/github.com/sapthesh/ai-agent-builder.svg?style=for-the-badge"/></a>
+  <a href="https://hits.sh/github.com/sapthesh/ai-agent-builder/"><img alt="Hits" src="https://hits.sh/github.com/sapthesh/ai-agent-builder.svg?view=today-total&style=for-the-badge&color=fe7d37"/></a>
+</div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Offline First](https://img.shields.io/badge/offline-first-blueviolet)
-![API Keys](https://img.shields.io/badge/API_keys-not_required-orange)
+<div align="center">
+
+<img alt="Static Badge" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+<img alt="Static Badge" src="https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge">
+<img alt="Static Badge" src="https://img.shields.io/badge/mode-offline-blueviolet?style=for-the-badge">
+<img alt="Static Badge" src="https://img.shields.io/badge/API_keys-not_required-orange?style=for-the-badge">
 
 </div>
 
