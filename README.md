@@ -1,5 +1,4 @@
-
-# 🤖 Offline AI Agent Builder
+<h1 align="center">🤖 Offline AI Agent Builder 🤖</h1>
 
 <h3 align="center">Visually craft, configure, and export sophisticated AI agent definitions—no internet or API keys required.</h3>
 
